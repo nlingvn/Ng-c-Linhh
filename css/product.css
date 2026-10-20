@@ -1,0 +1,48 @@
+.porduct {
+  width: 100%;
+  /* gap: 10px; */
+  height: auto;
+  /* border: solid red; */
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  background-color: #f0f0f0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* gap: 20px; */
+  gap: 20px;
+  margin-top: 1px;
+}
+
+.porduct img {
+  height: 200px;
+  width: 100%;
+  /* border: solid forestgreen; */
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.discription {
+  /* border: solid red; */
+  box-sizing: border-box;
+  height: 70px;
+  margin-left: 10px;
+}
+
+.discription {
+  width: 100%;
+  height: auto;
+}
+
+.discription h5 {
+  margin: 5px 0 5px;
+}
+
+.porduct button {
+  background-color: rgb(237, 129, 129);
+  border: solid white;
+}

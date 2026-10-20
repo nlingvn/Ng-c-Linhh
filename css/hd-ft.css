@@ -1,0 +1,80 @@
+.imglogo {
+  /* border: solid rebeccapurple; */
+  width: 50px;
+  border-radius: 30px;
+}
+
+.imgcar {
+  width: 50px;
+}
+
+.hd2 {
+  margin: 50px;
+}
+.hd3 {
+  /* border: solid red; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header {
+  /* border: solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* background-image: url("/img/header-bg.jpg"); */
+}
+.fa-solid {
+  color: black;
+}
+
+.heart {
+  margin: 0 10px;
+  border-radius: 50px;
+  background-color: aliceblue;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.hd2 {
+  /* border: solid red; */
+  display: flex;
+}
+.hd1 > button {
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 3px;
+  border: none;
+  color: red;
+  font-size: 20px;
+  background-color: whitesmoke;
+}
+.hd2 a {
+  text-decoration: none;
+  margin: 0 5px;
+  color: black;
+  font-size: 24px;
+}
+.hd1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.imgcar {
+  margin-left: 20px;
+}
+
+.homelink,
+.carlink {
+  margin: 0 5px;
+  /* border: solid blue; */
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.singin {
+  color: black;
+  font-size: 24px;
+  margin-right: 5px;
+}
